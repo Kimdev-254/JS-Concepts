@@ -1,4 +1,4 @@
-// Understanding callbacks in JavaScript
+// A callback is a function passed into another function
 
 //example
 function fetchData(callback) {
