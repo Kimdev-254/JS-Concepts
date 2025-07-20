@@ -1,7 +1,14 @@
 // Destructuring assignment is a JavaScript expression that makes it possible to unpack values from arrays 
 // or properties from objects into distinct variables.
 
-const array = [1, 2, 3];
-const [a, b, c] = array;
+// Object Destructuring
+const user = {
+  name: "Boniface",
+  age: 22,
+  country: "Kenya"
+};
 
-console.log(a, b, c); // 1 2 3
+// Destructure the object
+const { name, age } = user;
+console.log(name); // "Boniface"
+console.log(age);  // 22
